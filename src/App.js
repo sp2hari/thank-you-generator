@@ -62,6 +62,7 @@ function App() {
             <button onClick={ () => buttonClickHandler() }>Generate Image</button>
           </div>
           <div className="col-8 rightPage" id="gifImage">
+            <button onClick={ () => buttonClickHandler() }>Generate Image</button><br/>
             <img id="animatedImage"></img>
             <div id="debug"></div>
             <center><a id="downloadLink" className="hidden" download="image.gif">Download Image</a></center>
